@@ -1,7 +1,4 @@
-﻿int a = 10;
-int i = -a;
-while(i <= a)
-{
-    Console.Write(i + " ");
-    i = i + 1;
-}
+﻿int a = 347;
+Console.WriteLine(a % 10 + a / 100);
+
+
